@@ -1,0 +1,46 @@
+
+body{
+    background-color:lightgoldenrodyellow;
+}
+
+table{
+    border: solid black;
+    border-collapse: collapse;
+    
+}
+
+th{
+    border: solid black;
+    background-color: blueviolet;
+}
+
+td{
+    border: solid black;
+    background-color: cadetblue;
+}
+
+fieldset{
+    height: 800px;
+    width: 500px;
+    background-color: burlywood;
+}
+
+
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+div:last-child{
+    background-color: chartreuse;
+    position: sticky;
+    top: 30px;
+
+}
