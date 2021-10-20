@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 150px;
+    
+}
+
+.div1{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: darkslategray;
+
+    animation-name: kwadr;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+}
+
+
+.div2{
+    display: inline-block;
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: darkslategray;
+
+    animation-name: kwadra;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    
+}
+
+@keyframes kwadr{
+    0%{
+        transform: translate(0px,0px) rotate(0deg);
+        
+    }
+
+    25%{
+        transform: translate(90px,0px) rotate(90deg);
+        
+    }
+
+    50%{
+        transform: translate(90px,-90px) rotate(180deg);
+        
+    }
+
+    75%{
+        transform: translate(0px,-90px) rotate(270deg);
+        
+    }
+
+    100%{
+        transform: translate(0px,0px) rotate(360deg);
+        
+    }
+}
+
+@keyframes kwadra{
+    0%{
+        transform: translate(0px,0px) rotate(0deg);
+        
+    }
+
+    25%{
+        transform: translate(0px,-90px) rotate(90deg);
+        
+    }
+
+    50%{
+        transform: translate(-90px,-90px) rotate(180deg);
+        
+    }
+
+    75%{
+        transform: translate(-90px,0px) rotate(270deg);
+        
+    }
+
+    100%{
+        transform: translate(0px,0px) rotate(360deg);
+        
+    }
+}

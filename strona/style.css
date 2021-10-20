@@ -1,0 +1,49 @@
+body{
+    background-color: turquoise;
+}
+
+
+
+
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+    
+}
+
+.container:hover{
+    background-color:darkred;
+    transition-timing-function: cubic-bezier(.62,-0.4,.49,1.42);
+    transform: translateX(500px);
+}
+
+.container2{
+    height: 100px;
+    width: 100px;
+    background-color:darksalmon ;
+    
+    animation-name: animacjajakas;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    
+}
+
+.container2:hover{
+    animation-play-state: running;
+}
+
+@keyframes animacjajakas{
+
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+}
