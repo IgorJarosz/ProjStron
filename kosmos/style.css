@@ -45,7 +45,7 @@ hr {
 nav {
     z-index: 3;
     text-align: center;
-    font-size: 80px;
+    font-size: 6vw;
     font-weight: 600;
     position: sticky;
     top: 0px;
@@ -98,8 +98,9 @@ article {
 article>img {
     grid-column: 1/2;
     grid-row: 1/3;
-    width: 50%;
+    width: 80%;
     margin-left: 10%;
+    margin-top: 0%;
 }
 
 .naglowekArtykulu {
@@ -118,13 +119,14 @@ article>img {
     width: 100%;
     display: grid;
     grid-gap: 20px;
-    margin-left: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
     grid-template-columns: 16% 16% 16% 16% 16%;
     grid-template-rows: 250px 250px 250px 250px 250px;
 }
 
 #zdj1 {
-    background-color: rgb(145, 114, 173);
+    
     grid-column: 2/5;
     grid-row: 1/3;
     overflow: hidden;
@@ -232,4 +234,146 @@ footer {
     font-size: 20px;
     background-color: blueviolet;
     color: black;
+}
+
+@media screen and (max-width:1300px) {
+    
+
+#containerGalerii {
+width: 80%;
+display: grid;
+grid-gap: 20px;
+margin-left: 10%;
+margin-right: 10%;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 250px 250px 250px 250px ;
+}
+
+#zdj1 {
+
+grid-column: 1/6;
+grid-row: 1/3;
+overflow: hidden;
+}
+
+#zdj2 {
+    background-color: rgb(145, 114, 173);
+    grid-column: 1/3;
+    grid-row: 3/4;
+    overflow: hidden;
+}
+
+#zdj3 {
+    background-color: rgb(145, 114, 173);
+    grid-column: 3/6;
+    grid-row: 3/4;
+    overflow: hidden;
+}
+
+#zdj4 {
+    background-color: rgb(145, 114, 173);
+    grid-column: 1/4;
+    grid-row: 4/5;
+    overflow: hidden;
+}
+
+#zdj5 {
+    background-color: rgb(145, 114, 173);
+    grid-column: 4/6;
+    grid-row: 4/5;
+    overflow: hidden;
+}
+
+#zdj6 {
+    display: none;
+    background-color: rgb(145, 114, 173);
+    grid-column: 4/5;
+    grid-row: 4/5;
+    overflow: hidden;
+}
+
+#zdj7 {
+    display: none;
+    background-color: rgb(145, 114, 173);
+    grid-column: 5/6;
+    grid-row: 4/5;
+    overflow: hidden;
+}
+
+form {
+    display: grid;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 250px 250px;
+}
+
+#imie>input {
+    height: 40px;
+    font-size: 20px;
+    width: 70%;
+    background-color: rgb(171, 97, 240);
+    text-align: center;
+}
+
+#mail>input {
+    height: 40px;
+    font-size: 20px;
+    width: 70%;
+    background-color: rgb(171, 97, 240);
+    text-align: center;
+}
+
+article {
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto;
+
+}
+
+.naglowekArtykulu {
+    text-align: center;
+    margin-bottom: 5%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 55px;
+}
+
+article>img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.artykul {
+    margin-top: 10%;
+    font-size: 20px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.oferta {
+    margin: auto;
+    width: 80%;
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    color: black;
+    background-color: blueviolet;
+    margin-left: 32.5%;
+    margin-top: 5%;
+    width: 35%;
+    height: 60px;
+    font-size: 40px;
+
+
+}
 }
