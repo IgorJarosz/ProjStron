@@ -11,18 +11,18 @@
     <title>Document</title>
 </head>
 <body>
-
+   
     <nav>
         <a href="#naglowekOferty">OFERTA</a>
         <a href="#naglowekArtykulow">ARTYKULY</a>
         <a href="#naglowekGalerii">GALERIA</a>
         <a href="#naglowekKontaktu">KONTAKT</a>
     </nav>
-    <div id="banner">
-        <img src="baner.jpg"><div class="centered">KOSMOSIK</div>
+    <div class="banner">
+        <img alt="default zdjecie gwiazd"  src="baner.jpg"><div class="centered">KOSMOSIK</div>
     </div>
 
-    <div id="naglowekOferty"></div><br>
+    <div class="naglowekOferty"></div><br>
     <hr>
     <div class="naglowek">OFERTA</div>
 
@@ -31,56 +31,59 @@
     <button>40zl/mies</button>
 
 
-    <div id="naglowekArtykulow"></div><br>
+    <div class="naglowekArtykulow"></div><br>
     <hr>
     <div class="naglowek">ARTYKULY</div>
 
     <article>
-        <img src="artykul.jpg">
+        <img alt="default zdjecie gwiazd"  src="artykul.jpg">
         <div class="naglowekArtykulu"> Naglowek Artykułu</div>
         <div class="artykul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque laudantium iste, dicta eius amet magni a? Voluptatibus illo explicabo nemo, hic consequatur voluptatum qui molestias animi magni aperiam atque. <b>Czytaj Wiecej</b></div>
     </article>
 
     <article>
-        <img src="artykul.jpg">
+        <img alt="default zdjecie gwiazd"  src="artykul.jpg">
         <div class="naglowekArtykulu"> Naglowek Artykułu</div>
         <div class="artykul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque laudantium iste, dicta eius amet magni a? Voluptatibus illo explicabo nemo, hic consequatur voluptatum qui molestias animi magni aperiam atque. <b>Czytaj Wiecej</b></div>
     </article>
 
     <article>
-        <img src="artykul.jpg">
+        <img alt="default zdjecie gwiazd"  src="artykul.jpg">
         <div class="naglowekArtykulu"> Naglowek Artykułu</div>
         <div class="artykul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque laudantium iste, dicta eius amet magni a? Voluptatibus illo explicabo nemo, hic consequatur voluptatum qui molestias animi magni aperiam atque. <b>Czytaj Wiecej</b></div>
     </article>
 
-    <div id="naglowekGalerii"></div><br>
+    <div class="naglowekGalerii"></div><br>
     <hr>
     <div class="naglowek">GALERIA</div>
 
-    <div id="containerGalerii">
-        <div id="zdj1"><img src="galeria.jpg"></div>
-        <div id="zdj2"><img src="galeria.jpg"></div>
-        <div id="zdj3"><img src="galeria.jpg"></div>
-        <div id="zdj4"><img src="galeria.jpg"></div>
-        <div id="zdj5"><img src="galeria.jpg"></div>
-        <div id="zdj6"><img src="galeria.jpg"></div>
-        <div id="zdj7"><img src="galeria.jpg"></div>
+    <div class="containerGalerii">
+        <div class="zdj1"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
+        <div class="zdj2"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
+        <div class="zdj3"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
+        <div class="zdj4"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
+        <div class="zdj5"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
+        <div class="zdj6"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
+        <div class="zdj7"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
     </div>
 
-    <div id="naglowekKontaktu"></div><br>
+    <div class="naglowekKontaktu"></div><br>
     <hr>
     <div class="naglowek">KONTAKT</div>
 
     <form>
-        <label id="imie">IMIE<br><input type="text"></label>
-        <label id="mail">MAIL<br><input type="email"></label>
-        <label id="wiadomosc">WIADOMOSC<br><textarea></textarea></label>
+        <label class="imie">IMIE<br><input type="text" required></label>
+        <label class="mail">MAIL<br><input type="email" required></label>
+        <label class="wiadomosc">WIADOMOSC<br><textarea required></textarea></label>
+        <div class="zgoda"><label >ZGODA NA WYKORZYSTANIE DANYCH W CELACH KONTAKTOWYCH  <input type="checkbox" required></label></div>
+        <input type="submit" value="Wyślij" class="wyslij">
         
     </form>
 
     <footer>
         <br>
         Copyright Igor Jarosz
+        <a href="mailto:example@example.com">Email kontaktowy</a>
     </footer>
 </body>
 </html>
