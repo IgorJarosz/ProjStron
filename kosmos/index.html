@@ -2,88 +2,101 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Kosmodrom</title>
 </head>
 <body>
-   
     <nav>
-        <a href="#naglowekOferty">OFERTA</a>
-        <a href="#naglowekArtykulow">ARTYKULY</a>
-        <a href="#naglowekGalerii">GALERIA</a>
-        <a href="#naglowekKontaktu">KONTAKT</a>
+        <ul>
+            <li><a href="#sekcjaOferty">OFERTA</a></li>
+            <li><a href="#sekcjaArtykulow">ARTYKULY</a></li>
+            <li><a href="#oferta">GALERIA</a></li>
+            <li><a href="#oferta">KONTAKT</a></li>
+        </ul>
     </nav>
+
     <div class="banner">
-        <img alt="default zdjecie gwiazd"  src="baner.jpg"><div class="centered">KOSMOSIK</div>
+        <img alt="banner z gwiazdami i napisem kosmodrom"  src="baner.jpg"><div class="centered">KOSMODROM</div><div class="centered" id="small">loty w kosmos</div>
     </div>
 
-    <div class="naglowekOferty"></div><br>
-    <hr>
-    <div class="naglowek">OFERTA</div>
+    
+    <section id="sekcjaOferty">
+        <div id="oferta" class="naglowek"><hr>OFERTA</div>
+        <div id="ofertaLite">
+            <div class="naglowekOferty">LITE</div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid magnam, odio nihil maiores impedit at, dolorem sed laboriosam consequatur placeat labore quae quidem! Sequi nam incidunt facere ullam corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus corporis, velit consequatur quasi est suscipit, praesentium omnis vel molestiae perspiciatis tempore nesciunt ratione, et sed dignissimos aperiam eum soluta!
+            <button class="subskrybuj">SUBSKRYBUJ</button>
+        </div>
+        <div id="ofertaBasic">
+            <div class="naglowekOferty">BASIC</div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam veniam sapiente eligendi ullam placeat. Odit beatae animi dolorem ipsam, quis dolorum, quos cupiditate odio labore, at inventore sequi ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ullam ipsum fugit quasi expedita laborum, esse alias iusto inventore consequatur repellendus eum dicta cumque hic eligendi explicabo odit. Minus, officiis.
+            <button class="subskrybuj">SUBSKRYBUJ</button>
+        </div>
+        <div id="ofertaPremium">
+            <div class="naglowekOferty">PREMIUM</div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, tempore. Fugit, eos ipsam. Architecto minima fugit, quod harum nam porro laborum enim illum non commodi deserunt, eveniet obcaecati ut aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quasi eaque facere repellendus accusantium hic ipsa tempora, expedita voluptates, nemo possimus alias unde magni dolores perferendis error quas veritatis incidunt.
+            <button class="subskrybuj">SUBSKRYBUJ</button>
+        </div>
+    </section>
+    
+    <section id="sekcjaArtykulow">
+        <div id="artykuly" class="naglowek"><hr>ARTYKUŁY</div>
+        <article id="artykul1">
+            <div class="naglowekArtykulu">TYTUL ARTYKUŁU</div>
+            <img class="zdjecieArtykulu" src="artykul.jpg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid magnam, odio nihil maiores impedit at, dolorem sed laboriosam consequatur placeat labore quae quidem! Sequi nam incidunt facere ullam corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus corporis, velit consequatur quasi est suscipit, praesentium omnis vel molestiae perspiciatis tempore nesciunt ratione, et sed dignissimos aperiam eum soluta!<br>
+            <button class="subskrybuj">Czytaj Więcej</button>
+        </article>
+        <article id="artykul2">
+            <div class="naglowekArtykulu">TYTUL ARTYKUŁU</div>
+            <img class="zdjecieArtykulu" src="artykul.jpg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam veniam sapiente eligendi ullam placeat. Odit beatae animi dolorem ipsam, quis dolorum, quos cupiditate odio labore, at inventore sequi ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ullam ipsum fugit quasi expedita laborum, esse alias iusto inventore consequatur repellendus eum dicta cumque hic eligendi explicabo odit. Minus, officiis.<br>
+            <button class="subskrybuj">Czytaj Więcej</button>
+        </article>
+        <article id="artykul3">
+            <div class="naglowekArtykulu">TYTUL ARTYKUŁU</div>
+            <img class="zdjecieArtykulu" src="artykul.jpg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, tempore. Fugit, eos ipsam. Architecto minima fugit, quod harum nam porro laborum enim illum non commodi deserunt, eveniet obcaecati ut aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quasi eaque facere repellendus accusantium hic ipsa tempora, expedita voluptates, nemo possimus alias unde magni dolores perferendis error quas veritatis incidunt.<br>
+            <button class="subskrybuj">Czytaj Więcej</button>
+        </article>
 
-    <div class="oferta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perspiciatis nobis quisquam cumque officiis corporis molestiae, a quae aliquid provident deleniti maiores quod aut nisi quia, minus pariatur, magni earum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum cumque nemo labore impedit tempore ut, fuga optio, nulla porro ipsum minus dolorem odio, sed natus nam! Optio rem eveniet deserunt.</div>
+    </section>
 
-    <button>40zl/mies</button>
+    <section id="sekcjaGalerii">
+        <div id="galeria" class="naglowek"><hr>GALERIA</div>
 
-
-    <div class="naglowekArtykulow"></div><br>
-    <hr>
-    <div class="naglowek">ARTYKULY</div>
-
-    <article>
-        <img alt="default zdjecie gwiazd"  src="artykul.jpg">
-        <div class="naglowekArtykulu"> Naglowek Artykułu</div>
-        <div class="artykul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque laudantium iste, dicta eius amet magni a? Voluptatibus illo explicabo nemo, hic consequatur voluptatum qui molestias animi magni aperiam atque. <b>Czytaj Wiecej</b></div>
-    </article>
-
-    <article>
-        <img alt="default zdjecie gwiazd"  src="artykul.jpg">
-        <div class="naglowekArtykulu"> Naglowek Artykułu</div>
-        <div class="artykul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque laudantium iste, dicta eius amet magni a? Voluptatibus illo explicabo nemo, hic consequatur voluptatum qui molestias animi magni aperiam atque. <b>Czytaj Wiecej</b></div>
-    </article>
-
-    <article>
-        <img alt="default zdjecie gwiazd"  src="artykul.jpg">
-        <div class="naglowekArtykulu"> Naglowek Artykułu</div>
-        <div class="artykul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque laudantium iste, dicta eius amet magni a? Voluptatibus illo explicabo nemo, hic consequatur voluptatum qui molestias animi magni aperiam atque. <b>Czytaj Wiecej</b></div>
-    </article>
-
-    <div class="naglowekGalerii"></div><br>
-    <hr>
-    <div class="naglowek">GALERIA</div>
-
-    <div class="containerGalerii">
-        <div class="zdj1"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-        <div class="zdj2"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-        <div class="zdj3"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-        <div class="zdj4"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-        <div class="zdj5"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-        <div class="zdj6"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-        <div class="zdj7"><img alt="default zdjecie gwiazd"  src="galeria.jpg"></div>
-    </div>
-
-    <div class="naglowekKontaktu"></div><br>
-    <hr>
-    <div class="naglowek">KONTAKT</div>
-
-    <form>
-        <label class="imie">IMIE<br><input type="text" required></label>
-        <label class="mail">MAIL<br><input type="email" required></label>
-        <label class="wiadomosc">WIADOMOSC<br><textarea required></textarea></label>
-        <div class="zgoda"><label >ZGODA NA WYKORZYSTANIE DANYCH W CELACH KONTAKTOWYCH  <input type="checkbox" required></label></div>
-        <input type="submit" value="Wyślij" class="wyslij">
+        <img id="zdj1" src="galeria.jpg" alt="zdjęcie gwiazd">
+        <img id="zdj2" src="galeria.jpg" alt="zdjęcie gwiazd">
+        <img id="zdj3" src="galeria.jpg" alt="zdjęcie gwiazd">
+        <img id="zdj4" src="galeria.jpg" alt="zdjęcie gwiazd">
         
-    </form>
+
+    </section>
+
+    <section id="sekcjaKontaktu">
+        <div id="kontakt" class="naglowek"><hr>KONTAKT</div>
+
+        <form>
+            <label class="imie">IMIE<br><input type="text" required></label>
+            <label class="mail">MAIL<br><input type="email" required></label>
+            <label class="wiadomosc">WIADOMOSC<br><textarea required></textarea></label>
+            <div class="zgoda"><label >ZGODA NA WYKORZYSTANIE DANYCH W CELACH KONTAKTOWYCH  <input type="checkbox" required></label></div>
+            <input type="submit" value="Wyślij" class="wyslij">
+            
+        </form>
+    </section>
 
     <footer>
         <br>
         Copyright Igor Jarosz
         <a href="mailto:example@example.com">Email kontaktowy</a>
     </footer>
+
+    
 </body>
 </html>
