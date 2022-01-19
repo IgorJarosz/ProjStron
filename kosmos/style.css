@@ -56,6 +56,13 @@ li>a {
     color: blueviolet;
 }
 
+.banner {
+    position: absolute;
+    background-image: url('baner.jpg');
+    width: 100vw;
+    height: 800px;
+}
+
 .banner>img {
     position: absolute;
     top: 50%;
